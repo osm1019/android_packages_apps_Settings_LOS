@@ -62,6 +62,7 @@
     <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
 
     <!-- High touch sensitivity -->
+
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
 
@@ -217,4 +218,8 @@
     <string name="battery_maximum_capacity">Maximum capacity</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <string name="battery_maximum_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
+
+    <!-- maintainer -->
+    <string name="maintainer" translatable="false">Maintainer</string>
+    <string name="maintainer_name" translatable="false">Unknown</string>
 </resources>
