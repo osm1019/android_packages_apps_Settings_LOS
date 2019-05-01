@@ -222,4 +222,10 @@
     <!-- maintainer -->
     <string name="maintainer" translatable="false">Maintainer</string>
     <string name="maintainer_name" translatable="false">Unknown</string>
+
+    <!-- LineageExt category -->
+    <string name="lineage_category_title">LineageExt</string>
+    <string name="lineage_customization_title">LineageExt Parts</string>
+    <string name="lineage_customization_summary">Settings and customizations</string>
+    <string name="statusbar_category_title">Statusbar</string>
 </resources>
