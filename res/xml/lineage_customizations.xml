@@ -41,6 +41,13 @@
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="true"/>
 
+        <com.lineage.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.lineage.fragments.NetworkTraffic"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
