@@ -109,6 +109,7 @@ android_library {
         "org.lineageos.platform.internal",
         "LineagePreferenceLib",
         "vendor.lineage.fastcharge-V1.0-java",
+        "VendorSupport-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
