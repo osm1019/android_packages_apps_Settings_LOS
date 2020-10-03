@@ -53,6 +53,14 @@
             android:summary="@string/qs_show_data_usage_summary"
             android:defaultValue="true" />
 
+        <!-- QS Brightness Customization -->
+        <com.lineage.support.preferences.SecureSettingMasterSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:summary="@string/qs_show_brightness_summary"
+            android:fragment="com.android.settings.lineage.fragments.BrightnessSliderSettings"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
