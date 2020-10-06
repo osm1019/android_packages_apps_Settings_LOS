@@ -341,4 +341,8 @@
      <!-- QS battery -->
      <string name="qs_battery_category_title">Qs Battery customizations</string>
      <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">Status bar lyric</string>
+    <string name="status_bar_show_lyric_summary">Show lyric in status bar (need App support)</string>
 </resources>
