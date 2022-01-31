@@ -83,5 +83,11 @@
         android:key="spoofs_category"
         android:title="@string/spoofs_category_title">
 
+        <com.lineage.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.gphotos"
+            android:title="@string/photos_spoof_title"
+            android:summary="@string/photos_spoof_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 </PreferenceScreen>
