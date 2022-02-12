@@ -89,5 +89,11 @@
             android:summary="@string/photos_spoof_summary"
             android:defaultValue="true" />
 
+        <com.lineage.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.games"
+            android:title="@string/games_spoof_title"
+            android:summary="@string/games_spoof_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>
