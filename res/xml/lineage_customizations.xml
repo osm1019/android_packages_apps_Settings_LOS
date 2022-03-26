@@ -53,6 +53,12 @@
             android:summary="@string/theme_customization_wifi_icon_summary"
             android:fragment="com.android.settings.lineage.fragments.WifiIcons"/>
 
+        <Preference
+            android:key="sbbatteryicons"
+            android:title="@string/status_bar_battery_style_title"
+            android:summary="@string/status_bar_battery_style_summary"
+            android:fragment="com.android.settings.lineage.fragments.BatteryStyleSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
