@@ -60,6 +60,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "SettingsGoogle/res",
     ],
     static_libs: [
         // External dependencies
@@ -169,9 +170,5 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
-}
 
-android_library_import {
-    name: "glide",
-    aars: ["libs/glide-4.16.0.aar"],
 }
