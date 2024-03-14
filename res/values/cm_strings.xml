@@ -228,4 +228,10 @@
     <string name="lineage_customization_title">LineageExt Parts</string>
     <string name="lineage_customization_summary">Settings and customizations</string>
     <string name="statusbar_category_title">Statusbar</string>
+    <string name="quicksettings_category_title">Quick Settings</string>
+    <string name="gestures_category_title">Gestures</string>
+    <string name="misc_category_title">Miscellaneous</string>
+    <string name="spoofs_category_title">Spoofs</string>
+    <string name="themes_category_title">Themes</string>
+
 </resources>

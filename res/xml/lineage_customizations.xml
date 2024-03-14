@@ -20,8 +20,38 @@
     android:title="@string/lineage_customization_title">
 
     <PreferenceCategory
+        android:key="themes_category"
+        android:title="@string/themes_category_title">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="statusbar_category"
         android:title="@string/statusbar_category_title">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quicksettings_category"
+        android:title="@string/quicksettings_category_title">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gestures_category"
+        android:title="@string/gestures_category_title">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc_category"
+        android:title="@string/misc_category_title">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="spoofs_category"
+        android:title="@string/spoofs_category_title">
 
     </PreferenceCategory>
 </PreferenceScreen>
