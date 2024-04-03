@@ -16,7 +16,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import android.provider.Settings;
 import com.android.settings.R;
 import android.content.DialogInterface;
@@ -55,7 +55,7 @@ public class BatteryStyleSettings extends SettingsPreferenceFragment implements
 
     private SystemSettingListPreference mBatteryPercent;
     private SystemSettingListPreference mBatteryStyle;
-    private SwitchPreference mBatteryTextCharging;
+    private SwitchPreferenceCompat mBatteryTextCharging;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -79,7 +79,7 @@ public class BatteryStyleSettings extends SettingsPreferenceFragment implements
                 batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
         mBatteryPercent.setOnPreferenceChangeListener(this);
 
-        mBatteryTextCharging = (SwitchPreference) findPreference(KEY_STATUS_BAR_BATTERY_TEXT_CHARGING);
+        mBatteryTextCharging = (SwitchPreferenceCompat) findPreference(KEY_STATUS_BAR_BATTERY_TEXT_CHARGING);
         mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
                 (batterystyle != BATTERY_STYLE_TEXT && batterypercent != 2));
 
