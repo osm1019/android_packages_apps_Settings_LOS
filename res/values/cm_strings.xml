@@ -225,12 +225,12 @@
     <string name="battery_maximum_capacity_not_available" translatable="false">@string/battery_cycle_count_not_available</string>
 
     <!-- maintainer -->
-    <string name="maintainer" translatable="false">Maintainer</string>
-    <string name="maintainer_name" translatable="false">Unknown</string>
+    <string name="maintainer" translatable="false">HeisenDroid Maintainer</string>
+    <string name="maintainer_name" translatable="false">OscarM</string>
 
-    <!-- LineageExt category -->
-    <string name="lineage_category_title">LineageExt</string>
-    <string name="lineage_customization_title">LineageExt Parts</string>
+    <!-- HeisenDroid category -->
+    <string name="lineage_category_title">HeisenDroid</string>
+    <string name="lineage_customization_title">HeisenDroid Lab</string>
     <string name="lineage_customization_summary">Settings and customizations</string>
     <string name="statusbar_category_title">Statusbar</string>
     <string name="quicksettings_category_title">Quick Settings</string>
